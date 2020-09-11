@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T05:39:35.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="9CdJAaVw0ZKrxJphG8En" version="13.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-11T06:33:40.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="6JeLfiCYcKLHA3Kr8cYZ" version="13.6.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2248" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -28,24 +28,19 @@
           <mxGeometry x="-120" y="67" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-103" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="206" y="280" width="620" height="440" as="geometry" />
+          <mxGeometry x="130" y="280" width="650" height="430" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-104" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="280" width="400" height="320" as="geometry" />
+          <mxGeometry x="-340" y="350" width="400" height="320" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-105" value="&lt;font face=&quot;Lucida Console&quot;&gt;dcr name space&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="-210" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-106" value="&lt;font face=&quot;Lucida Console&quot;&gt;admf namespace&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="470" y="280" width="110" height="40" as="geometry" />
+          <mxGeometry x="190" y="280" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-107" target="HupRL2JJk7iXibLmgQH6-121">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HupRL2JJk7iXibLmgQH6-138" value="&lt;font color=&quot;#ff6666&quot; face=&quot;Lucida Console&quot;&gt;c. watch config key&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-137">
-          <mxGeometry x="-0.1299" y="-31" relative="1" as="geometry">
-            <mxPoint x="33" y="31" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-107" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="313" y="330" width="100" height="40" as="geometry" />
@@ -61,8 +56,7 @@
         <mxCell id="HupRL2JJk7iXibLmgQH6-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-109" target="HupRL2JJk7iXibLmgQH6-113">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="325" y="525" />
-              <mxPoint x="230" y="525" />
+              <mxPoint x="230" y="380" />
               <mxPoint x="230" y="680" />
             </Array>
           </mxGeometry>
@@ -75,7 +69,7 @@
         <mxCell id="HupRL2JJk7iXibLmgQH6-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-109" target="HupRL2JJk7iXibLmgQH6-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HupRL2JJk7iXibLmgQH6-144" value="&lt;font color=&quot;#ff6666&quot;&gt;a. report configure verison&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-143">
+        <mxCell id="HupRL2JJk7iXibLmgQH6-144" value="&lt;span style=&quot;color: rgb(255 , 102 , 102) ; font-family: &amp;#34;lucida console&amp;#34;&quot;&gt;a. watch config key&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-143">
           <mxGeometry x="0.1484" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -98,7 +92,7 @@
           <mxGeometry x="100" y="131" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-112" value="&lt;font face=&quot;Lucida Console&quot;&gt;config map&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="660" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-113" target="HupRL2JJk7iXibLmgQH6-121">
           <mxGeometry relative="1" as="geometry" />
@@ -117,11 +111,6 @@
         <mxCell id="HupRL2JJk7iXibLmgQH6-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-115" target="HupRL2JJk7iXibLmgQH6-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HupRL2JJk7iXibLmgQH6-134" value="&lt;font face=&quot;Lucida Console&quot; color=&quot;#ff6666&quot;&gt;b. renew release regularly&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-133">
-          <mxGeometry x="-0.4296" y="28" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-115" value="&lt;font face=&quot;Lucida Console&quot;&gt;app&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="570" y="670" width="60" height="20" as="geometry" />
         </mxCell>
@@ -132,7 +121,7 @@
           <mxGeometry x="480" y="670" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-121" value="&lt;font face=&quot;Lucida Console&quot;&gt;etcd&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="430" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="860" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-99" target="HupRL2JJk7iXibLmgQH6-107">
           <mxGeometry relative="1" as="geometry" />
