@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-11T03:36:39.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="6zSeCFwuPmKUVP4Bgxi7" version="13.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-11T04:40:50.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="Yue062x8lc4YjaK1Qj3L" version="13.6.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2248" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -9,6 +9,14 @@
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-99" value="SM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="130" y="101" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-100" target="HupRL2JJk7iXibLmgQH6-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-128" value="&lt;font face=&quot;Lucida Console&quot; color=&quot;#ff6666&quot;&gt;3. push full configuration&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-126">
+          <mxGeometry x="0.2039" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-100" value="cms" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-80" y="40" width="100" height="40" as="geometry" />
@@ -31,15 +39,37 @@
         <mxCell id="HupRL2JJk7iXibLmgQH6-106" value="&lt;font face=&quot;Lucida Console&quot;&gt;admf namespace&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="470" y="280" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-107" target="HupRL2JJk7iXibLmgQH6-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-138" value="&lt;font color=&quot;#ff6666&quot; face=&quot;Lucida Console&quot;&gt;watch config key&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-137">
+          <mxGeometry x="-0.1299" y="-31" relative="1" as="geometry">
+            <mxPoint x="33" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-107" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="313" y="330" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HupRL2JJk7iXibLmgQH6-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-109" target="HupRL2JJk7iXibLmgQH6-111">
+        <mxCell id="HupRL2JJk7iXibLmgQH6-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-109" target="HupRL2JJk7iXibLmgQH6-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-123" value="&lt;font face=&quot;Lucida Console&quot; color=&quot;#ff6666&quot;&gt;1. doorbell, &lt;br&gt;request configuration&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-122">
           <mxGeometry x="-0.1049" y="-7" relative="1" as="geometry">
             <mxPoint x="-7" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-109" target="HupRL2JJk7iXibLmgQH6-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="525" />
+              <mxPoint x="230" y="525" />
+              <mxPoint x="230" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-142" value="&lt;font color=&quot;#ff6666&quot; face=&quot;Lucida Console&quot;&gt;6. send config by http&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-141">
+          <mxGeometry x="-0.0769" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-109" value="&lt;font face=&quot;Lucida Console&quot;&gt;admin-serivce&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -48,17 +78,41 @@
         <mxCell id="HupRL2JJk7iXibLmgQH6-110" value="SM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="120" y="114" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-111" target="HupRL2JJk7iXibLmgQH6-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-127" value="&lt;font face=&quot;Lucida Console&quot; color=&quot;#ff6666&quot;&gt;2. request full configurationt&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-125">
+          <mxGeometry x="0.2919" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-111" value="SM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="100" y="131" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-112" value="&lt;font face=&quot;Lucida Console&quot;&gt;config map&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="660" y="320" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-113" target="HupRL2JJk7iXibLmgQH6-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-132" value="&lt;font face=&quot;Lucida Console&quot; color=&quot;#ff6666&quot;&gt;1.&amp;nbsp; report configure info &lt;br&gt;which it configure concerns&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-131">
+          <mxGeometry x="-0.5152" y="-35" relative="1" as="geometry">
+            <mxPoint x="35" y="-35" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-113" value="&lt;font face=&quot;Lucida Console&quot;&gt;app&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="290" y="670" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-114" value="&lt;font face=&quot;Lucida Console&quot;&gt;app&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="383" y="670" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-115" target="HupRL2JJk7iXibLmgQH6-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-134" value="&lt;font face=&quot;Lucida Console&quot; color=&quot;#ff6666&quot;&gt;2. renew release regularly&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-133">
+          <mxGeometry x="-0.4296" y="28" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-115" value="&lt;font face=&quot;Lucida Console&quot;&gt;app&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="570" y="670" width="60" height="20" as="geometry" />
@@ -71,6 +125,24 @@
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-121" value="&lt;font face=&quot;Lucida Console&quot;&gt;etcd&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="430" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-99" target="HupRL2JJk7iXibLmgQH6-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-130" value="&lt;font face=&quot;Lucida Console&quot; color=&quot;#ff6666&quot;&gt;4. send full configuration file&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-129">
+          <mxGeometry x="-0.2477" y="-64" relative="1" as="geometry">
+            <mxPoint x="66" y="64" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="HupRL2JJk7iXibLmgQH6-109" target="HupRL2JJk7iXibLmgQH6-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HupRL2JJk7iXibLmgQH6-140" value="&lt;font color=&quot;#ff6666&quot; face=&quot;Lucida Console&quot;&gt;5. update config map&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="HupRL2JJk7iXibLmgQH6-139">
+          <mxGeometry x="0.2538" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
