@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-16T10:07:06.363Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="Ex4AqxtbV7Z1tm9kEtdE" version="13.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-16T10:11:59.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="A8WRQ2sVFDFcRO-dlvc1" version="13.6.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2248" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -235,7 +235,7 @@
           <mxGeometry x="246.5" y="2210" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-55" value="&lt;font face=&quot;Courier New&quot;&gt;etcd&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="451" y="1970" width="60" height="40" as="geometry" />
+          <mxGeometry x="490" y="1940" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-57" target="0-pLEKq_0bN04IY5f0WU-58">
           <mxGeometry relative="1" as="geometry" />
@@ -246,12 +246,16 @@
         <mxCell id="0-pLEKq_0bN04IY5f0WU-58" value="&lt;font face=&quot;Courier New&quot;&gt;create config map failed&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="645" y="1860" width="120" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="0-pLEKq_0bN04IY5f0WU-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.369;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-60" target="0-pLEKq_0bN04IY5f0WU-63">
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-93" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.369;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-60" target="0-pLEKq_0bN04IY5f0WU-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0-pLEKq_0bN04IY5f0WU-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-60" target="0-pLEKq_0bN04IY5f0WU-95">
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-94" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-60" target="0-pLEKq_0bN04IY5f0WU-95">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="2373" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="2373" />
+              <mxPoint x="430" y="2373" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-60" value="&lt;font face=&quot;Courier New&quot;&gt;update successed&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -264,7 +268,7 @@
           <mxGeometry x="299" y="2460" width="88" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-64" value="&lt;font face=&quot;Courier New&quot;&gt;end&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="760" y="2162.5" width="97" height="40" as="geometry" />
+          <mxGeometry x="772.25" y="2162.5" width="97" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-67" target="0-pLEKq_0bN04IY5f0WU-103">
           <mxGeometry relative="1" as="geometry" />
@@ -274,7 +278,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0-pLEKq_0bN04IY5f0WU-89" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-67" target="0-pLEKq_0bN04IY5f0WU-87">
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-89" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-67" target="0-pLEKq_0bN04IY5f0WU-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-67" value="&lt;font face=&quot;Courier New&quot;&gt;if config has storage in etcd&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -289,7 +293,7 @@
         <mxCell id="0-pLEKq_0bN04IY5f0WU-70" value="&lt;font face=&quot;Courier New&quot;&gt;get app config info and send config to then by http&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=1;glass=0;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-5" y="2420" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0-pLEKq_0bN04IY5f0WU-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-71" target="0-pLEKq_0bN04IY5f0WU-70">
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-81" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-71" target="0-pLEKq_0bN04IY5f0WU-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-71" value="&lt;font face=&quot;Courier New&quot;&gt;wait,if receive new config notification&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -306,7 +310,7 @@
         <mxCell id="0-pLEKq_0bN04IY5f0WU-75" value="&lt;font face=&quot;Courier New&quot;&gt;wait,if trigger watch event&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="10" y="2170" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0-pLEKq_0bN04IY5f0WU-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-82" target="0-pLEKq_0bN04IY5f0WU-116">
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-82" target="0-pLEKq_0bN04IY5f0WU-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-82" value="&lt;font face=&quot;Courier New&quot;&gt;if send successed&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -327,7 +331,7 @@
         <mxCell id="0-pLEKq_0bN04IY5f0WU-95" value="retry" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="453" y="2347.75" width="77" height="50.5" as="geometry" />
         </mxCell>
-        <mxCell id="0-pLEKq_0bN04IY5f0WU-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-96" target="0-pLEKq_0bN04IY5f0WU-54">
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-96" target="0-pLEKq_0bN04IY5f0WU-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-99" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0-pLEKq_0bN04IY5f0WU-98">
@@ -335,7 +339,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0-pLEKq_0bN04IY5f0WU-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-96" target="0-pLEKq_0bN04IY5f0WU-101">
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-102" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-96" target="0-pLEKq_0bN04IY5f0WU-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-96" value="if reach the retry count" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
