@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-09-18T09:56:30.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="QBym7TrYXUF-ZxgNrdJ8" version="13.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-18T10:14:22.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="6ayOkaVW59bQIiUgriW0" version="13.6.8" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="2248" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0-pLEKq_0bN04IY5f0WU-118" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeWidth=1;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="1330" width="1230" height="1280" as="geometry" />
+          <mxGeometry x="-820" y="1330" width="1800" height="1290" as="geometry" />
         </mxCell>
         <mxCell id="HupRL2JJk7iXibLmgQH6-124" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-280" y="40" width="1190" height="680" as="geometry" />
@@ -167,7 +167,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-39" target="0-pLEKq_0bN04IY5f0WU-31">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="33" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.526;entryY=-0.16;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-39" target="0-pLEKq_0bN04IY5f0WU-157">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-290" y="1480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-39" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;rounded=1;shadow=1;glass=0;sketch=0;strokeWidth=1;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="255.63" y="1440" width="165" height="40" as="geometry" />
@@ -216,7 +227,7 @@
           <mxGeometry x="285" y="2343" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-64" value="&lt;font face=&quot;Courier New&quot;&gt;end&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="92" y="2550" width="97" height="46" as="geometry" />
+          <mxGeometry x="-342.5" y="2574" width="97" height="46" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-70" target="0-pLEKq_0bN04IY5f0WU-82">
           <mxGeometry relative="1" as="geometry" />
@@ -227,7 +238,7 @@
         <mxCell id="0-pLEKq_0bN04IY5f0WU-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-75" target="0-pLEKq_0bN04IY5f0WU-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0-pLEKq_0bN04IY5f0WU-75" value="&lt;font face=&quot;Courier New&quot;&gt;wait,if trigger watch event&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-75" value="&lt;font face=&quot;Courier New&quot;&gt;if trigger watch event,and verison is old&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-177" y="1960" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-117" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-82" target="0-pLEKq_0bN04IY5f0WU-116">
@@ -293,7 +304,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-67" value="&lt;font face=&quot;Courier New&quot;&gt;if config has storage in etcd&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="285" y="2110" width="100" height="80" as="geometry" />
+          <mxGeometry x="288.13" y="2110" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-125" target="0-pLEKq_0bN04IY5f0WU-126">
           <mxGeometry relative="1" as="geometry" />
@@ -327,6 +338,12 @@
         </mxCell>
         <mxCell id="0-pLEKq_0bN04IY5f0WU-143" value="&lt;font face=&quot;Courier New&quot;&gt;watch /conf/admf&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=1;glass=0;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-187" y="1840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0-pLEKq_0bN04IY5f0WU-157" target="0-pLEKq_0bN04IY5f0WU-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-pLEKq_0bN04IY5f0WU-157" value="&lt;font face=&quot;Lucida Console&quot;&gt;deregister from sm&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=1;glass=0;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="2470" width="152" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
