@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T09:39:48.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="R7FtGm8675xjIOCzGvdW" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T09:52:42.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="ciwCr6EJ8XrmQyr4Y_LZ" version="13.8.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2489" dy="-373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2701" dy="-373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="MOtrbbV4XvPzGapGwvdg-0" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeWidth=1;gradientColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-820" y="1510" width="1500" height="1260" as="geometry" />
+          <mxGeometry x="-820" y="1560" width="1500" height="1140" as="geometry" />
         </mxCell>
         <mxCell id="MOtrbbV4XvPzGapGwvdg-40" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="297.13" y="1530" width="82" height="50" as="geometry" />
+          <mxGeometry x="297.13" y="1580" width="82" height="50" as="geometry" />
         </mxCell>
         <mxCell id="mS3H4aOOXCstNZzSepwQ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MOtrbbV4XvPzGapGwvdg-47" target="MOtrbbV4XvPzGapGwvdg-54">
           <mxGeometry relative="1" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MOtrbbV4XvPzGapGwvdg-47" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;rounded=1;shadow=1;glass=0;sketch=0;strokeWidth=1;gradientColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="255.63" y="1640" width="165" height="40" as="geometry" />
+          <mxGeometry x="255.63" y="1680" width="165" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MOtrbbV4XvPzGapGwvdg-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MOtrbbV4XvPzGapGwvdg-54" target="MOtrbbV4XvPzGapGwvdg-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MOtrbbV4XvPzGapGwvdg-54" value="&lt;font face=&quot;Courier New&quot;&gt;received configure from confd-adapter&amp;nbsp;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=1;glass=0;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="267.82" y="1790" width="140.62" height="50" as="geometry" />
+          <mxGeometry x="267.82" y="1830" width="140.62" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MOtrbbV4XvPzGapGwvdg-57" value="&lt;font face=&quot;Courier New&quot;&gt;etcd&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;rounded=1;shadow=1;glass=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="1910" width="110" height="55" as="geometry" />
@@ -115,7 +115,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MOtrbbV4XvPzGapGwvdg-97" value="&lt;font face=&quot;Courier New&quot;&gt;watch /conf/admf&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;shadow=1;glass=0;sketch=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-186.5" y="1694" width="160" height="60" as="geometry" />
+          <mxGeometry x="-186.5" y="1723.5" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MOtrbbV4XvPzGapGwvdg-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MOtrbbV4XvPzGapGwvdg-99" target="MOtrbbV4XvPzGapGwvdg-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
